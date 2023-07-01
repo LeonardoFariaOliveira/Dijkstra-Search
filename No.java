@@ -3,11 +3,13 @@ import java.util.Comparator;
 
 public class No implements Comparator<No> {
         int pos;
+        String nodeName;
         String cityName;
         int weight;
 
-        public No(int pos, String cityName, int weight) {
+        public No(int pos, String nodeName, String cityName, int weight) {
             this.pos = pos;
+            this.nodeName = nodeName;
             this.cityName = cityName;
             this.weight = weight;
         }
